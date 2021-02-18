@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .number {
+        appearance: none;
+        text-decoration: none;
+        width: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table style="padding: 5px; margin: 20px; border-collapse: collapse">
+        <tr bgcolor="grey">
+          <td style="padding: 10px; background-color: rgb(104, 187, 104)">
+            Step 1: Account
+          </td>
+          <td style="padding: 10px; background-color: rgb(104, 187, 104)">
+            Step 2: Personal Details
+          </td>
+          <td style="padding: 10px; background-color: rgb(100, 161, 199)">
+            Step 3: Your Review
+          </td>
+        </tr>
+        <br />
+        <br />
+      </table>
+    </center>
+    <fieldset style="margin: auto; width: 70%">
+      <legend>Your Review:</legend>
+      <br />
+      <label for="socialproof">
+        <strong>How did you hear about us? <select name="social" id="social">
+            <option value="">Select Your Option</option>
+            <option value="socialMedia">Social Media</option>
+            <option value="News">News</option>
+            <option value="Friends">Friends</option>
+        </select></strong>
+      </label>
+      <br />
+      <br />
+      <label for="radiobutton">
+        <strong>Would you visit again?</strong>
+        <br />
+        <input type="radio"><strong>Yes</strong>
+        <input type="radio"><strong>No</strong>
+        <input type="radio"><strong>Maybe</strong>
+      </label>
+      <br />
+      <strong>Comments:</strong>
+      <br>
+      <textarea placeholder = "Enter your comments here...." name="comment" id="comment" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <label for="social-link">
+        <strong>Documents:</strong>
+        <input type="file">
+        <br>
+        <br>
+        <input type="checkbox" name="emailsignup" id="emailsignup"> <strong>Sign me up for email updates</strong>
+      </label>
+      <br />
+      <br />
+      <a href="form3.html"
+        ><img src="./New folder/back.png" width="100" alt="" />
+      </a>
+
+      <a href="form4.html"
+        ><img src="./New folder/submit.png" width="100" alt=""
+      /></a>
+    </fieldset>
+  </body>
+</html>
